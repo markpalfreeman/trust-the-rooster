@@ -1,9 +1,6 @@
 // VARIABLES
 $red: #CA3A36
 
-// FONTS
-
-
 // RESET
 *, :after, :before
   box-sizing: border-box
@@ -24,15 +21,31 @@ main
 
 .logo
   position: relative
-  width: 75vw
-  border: 5vw solid $red
+  border: solid $red
   margin: auto
+  display: flex
+  justify-content: center
+  padding: 1em
+
+  @media (orientation: landscape)
+    border-width: 4vh
+    padding: 3vh 10vh
+    &__title
+      font-size: 10vh
+
+  @media (orientation: portrait)
+    max-width: 80vw
+    border-width: 4vw
+    padding: 3vw 10vw
+    &__title
+      font-size: 10vw
 
   &__title
     color: $red
-    font-size: 10vw
+    line-height: 1em
     text-align: center
     text-transform: uppercase
+    margin: 0
 
     span
       display: block
