@@ -1,0 +1,16 @@
+{
+  "name": "trust-the-rooster",
+  "version": "1.0.0",
+  "description": "Always trust him",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "harp compile",
+    "deploy": "surge www trust-the-rooster.surge.sh"
+  },
+  "keywords": [
+    "rooster",
+    "trust"
+  ],
+  "author": "Mark Palfreeman <mark@palf.co>",
+  "license": "MIT"
+}
