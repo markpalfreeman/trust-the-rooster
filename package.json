@@ -1,16 +1,23 @@
 {
   "name": "trust-the-rooster",
-  "version": "1.0.0",
-  "description": "Always trust him",
-  "main": "index.js",
-  "scripts": {
-    "predeploy": "harp compile",
-    "deploy": "surge www trust-the-rooster.surge.sh"
+  "version": "0.0.1",
+  "description": "Always trust the rooster",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5"
   },
-  "keywords": [
-    "rooster",
-    "trust"
-  ],
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "surge build trust-the-rooster.surge.sh"
+  },
   "author": "Mark Palfreeman <mark@palf.co>",
   "license": "MIT"
 }

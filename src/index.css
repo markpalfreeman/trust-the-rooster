@@ -1,0 +1,68 @@
+/* RESET */
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/*///////////////////////*/
+
+main {
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
+.logo {
+  position: relative;
+  border: solid #CA3A36;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.logo-title {
+  color: #CA3A36;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.logo-title span {
+  display: block;
+}
+
+.logo-img {
+  position: absolute;
+}
+
+@media (orientation: landscape) {
+  .logo {
+    border-width: 4vh;
+    padding: 3vh 10vh;
+  }
+
+  .logo-title {
+    font-size: 10vh;
+  }
+}
+
+@media (orientation: portrait) {
+  .logo {
+    max-width: 80vw;
+    border-width: 4vw;
+    padding: 3vw 10vw;
+  }
+
+  .logo-title {
+    font-size: 10vw;
+  }
+}
