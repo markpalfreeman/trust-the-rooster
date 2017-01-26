@@ -3,7 +3,7 @@ import Logo from '../Logo/Logo'
 import './App.css'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <main>
         <Logo />
