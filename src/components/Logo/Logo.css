@@ -1,0 +1,64 @@
+.logo {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-box {
+  border: solid #CA3A36;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.logo-title {
+  color: #CA3A36;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.logo-title span {
+  display: block;
+}
+
+.logo-rooster {
+  width: 18%;
+}
+
+@media (orientation: landscape) {
+  .logo-box {
+    border-width: 4vh;
+    padding: 3vh 10vh;
+  }
+
+  .logo-rooster {
+    margin-top: 4vh;
+  }
+
+  .logo-title {
+    font-size: 10vh;
+  }
+}
+
+@media (orientation: portrait) {
+  .logo {
+    max-width: 80vw;
+  }
+
+  .logo-box {
+    border-width: 4vw;
+    padding: 3vw 10vw;
+  }
+
+  .logo-rooster {
+    margin-top: 4vw;
+  }
+
+  .logo-title {
+    font-size: 10vw;
+  }
+}
