@@ -12,9 +12,9 @@ const Logo = () => {
           <span>Rooster</span>
         </h1>
       </div>
-      <div className='logo-rooster'>
+      <a href='#' className='logo-rooster'>
         <img className='rooster-img' src={rooster} alt='Rooster graphic' />
-      </div>
+      </a>
     </div>
   )
 }

@@ -28,6 +28,10 @@
 .logo-rooster {
   width: 18%;
 }
+.logo-rooster:hover {
+  transform: scale3d(1.1, 1.1, 1);
+  transition: transform ease-in-out 0.3s;
+}
 
 @media (orientation: landscape) {
   .logo-box {
