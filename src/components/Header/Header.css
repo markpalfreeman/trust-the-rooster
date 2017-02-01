@@ -1,0 +1,49 @@
+.ttr-header {
+  height: 4em;
+  padding: 0 2em;
+}
+
+.ttr-header-nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.ttr-header-logo {
+  width: 2em;
+}
+
+.ttr-header-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #CA3A36;
+}
+
+.ttr-header-link:first-of-type {
+  margin-right: 1.5em;
+}
+
+.ttr-header-link:not(:first-of-type) {
+  padding: 1.5em;
+  position: relative;
+}
+
+.ttr-header-link:not(:first-of-type):hover:before {
+  content: '[';
+  display: block;
+  position: absolute;
+  left: 0.75em;
+  top: 37%;
+}
+
+.ttr-header-link:not(:first-of-type):hover:after {
+  content: ']';
+  display: block;
+  position: absolute;
+  right: 0.75em;
+  top: 37%;
+}
+
+.ttr-header-link:last-of-type {
+  margin-right: 0;
+}

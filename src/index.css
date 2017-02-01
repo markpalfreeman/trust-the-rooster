@@ -16,10 +16,6 @@ img {
 
 /*///////////////////////*/
 
-main {
-  font-family: 'Rubik', sans-serif;
-  display: flex;
-  justify-content: center;
+#app {
   height: 100%;
-  position: relative;
 }
