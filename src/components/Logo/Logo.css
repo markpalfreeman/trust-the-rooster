@@ -29,12 +29,6 @@
   width: 18%;
   padding-bottom: 2em;
 }
-.logo-rooster:hover {
-  transform: scale3d(1.05, 1.05, 1);
-  transition: all ease-in-out 0.2s;
-
-  border-bottom: 2px solid #CA3A36;
-}
 
 @media (orientation: landscape) {
   .logo-box {

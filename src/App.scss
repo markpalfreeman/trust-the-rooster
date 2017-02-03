@@ -1,0 +1,15 @@
+.ttr {
+  height: 100%;
+  font-family: 'Rubik', sans-serif;
+
+  &-body {
+    display: flex;
+    justify-content: center;
+    height: calc(100% - 4em);
+    position: relative;
+  }
+}
+
+// .ttr-body {
+
+// }

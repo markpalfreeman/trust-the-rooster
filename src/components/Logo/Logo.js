@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Logo.css'
 import rooster from '../../img/rooster.svg'
 
@@ -12,9 +13,9 @@ const Logo = () => {
           <span>Rooster</span>
         </h1>
       </div>
-      <a href='#' className='logo-rooster'>
+      <Link to='/game' className='logo-rooster'>
         <img className='rooster-img' src={rooster} alt='Rooster graphic' />
-      </a>
+      </Link>
     </div>
   )
 }

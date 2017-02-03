@@ -4,6 +4,7 @@
   "description": "Always trust the rooster",
   "private": true,
   "devDependencies": {
+    "custom-react-scripts": "0.0.21",
     "react-scripts": "0.8.5"
   },
   "dependencies": {
@@ -16,9 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "surge build trust-the-rooster.surge.sh"
+    "eject": "react-scripts eject"
   },
   "author": "Mark Palfreeman <mark@palf.co>",
   "license": "MIT"
