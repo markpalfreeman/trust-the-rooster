@@ -4,8 +4,7 @@
   "description": "Always trust the rooster",
   "private": true,
   "devDependencies": {
-    "custom-react-scripts": "0.0.21",
-    "react-scripts": "0.8.5"
+    "custom-react-scripts": "0.0.21"
   },
   "dependencies": {
     "react": "^15.4.2",
