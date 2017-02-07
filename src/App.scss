@@ -8,4 +8,9 @@
     height: calc(100% - 4em);
     position: relative;
   }
+
+  &-page {
+    width: 90%;
+    max-width: 68em;
+  }
 }
