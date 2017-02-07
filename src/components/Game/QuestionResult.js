@@ -16,9 +16,11 @@ const QuestionResult = React.createClass({
     const result = (answer === fact.truth) ? 'correct' : 'wrong'
 
     return (
-      <div className='ttr-game-question-result'>
-        <h2>{result.toUpperCase()}!</h2>
-        <button onClick={nextQuestion}>--></button>
+      <div className={'ttr-game-question-bg ' + result}>
+        <div className='ttr-game-question-result'>
+          <h2>{result.toUpperCase()}!</h2>
+          <button className='button' onClick={nextQuestion}>--></button>
+        </div>
       </div>
     )
   }

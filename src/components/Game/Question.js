@@ -25,8 +25,8 @@ const Question = React.createClass({
     return (
       <div className='ttr-game-question'>
         <h2>{fact.fact}</h2>
-        <button onClick={this.onAnswerTrue}>True</button>
-        <button onClick={this.onAnswerFalse}>False</button>
+        <button className='button' onClick={this.onAnswerTrue}>True</button>
+        <button className='button' onClick={this.onAnswerFalse}>False</button>
       </div>
     )
   }

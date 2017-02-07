@@ -19,3 +19,23 @@ img {
 #app {
   height: 100%;
 }
+
+.button {
+  background: transparent;
+  color: #CA3A36;
+  border: 0.25em solid #CA3A36;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #CA3A36;
+    color: white;
+  }
+
+  & + & {
+    margin-left: 1em;
+  }
+}

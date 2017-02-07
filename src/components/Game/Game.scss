@@ -1,0 +1,49 @@
+.ttr-game {
+
+  &-question {
+
+    &-bg {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &.correct {
+        background: darkgreen;
+
+        .button:hover {
+          color: darkgreen;
+        }
+      }
+
+      &.wrong {
+        background: #CA3A36;
+
+        .button:hover {
+          color: #CA3A36
+        }
+      }
+
+      .button {
+        border-color: white;
+        color: white;
+
+        &:hover {
+          background: white;
+        }
+      }
+    }
+
+    &-result {
+      text-align: center;
+      color: white;
+      z-index: 5;
+    }
+
+  }
+}

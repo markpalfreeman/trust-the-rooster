@@ -3,6 +3,7 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import Question from './Question'
 import QuestionResult from './QuestionResult'
 import factsData from '../../facts.json'
+import './Game.scss'
 
 const Game = React.createClass({
   getInitialState () {
