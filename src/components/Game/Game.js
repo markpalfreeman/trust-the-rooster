@@ -23,7 +23,7 @@ const Game = React.createClass({
       answers: [],
       numTrue: 0,
       correctCount: 0,
-      totalCount: 5,
+      totalCount: 10,
       showQuestionResult: false,
       showGameResult: false
     }
