@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Always trust the rooster",
   "private": true,
-  // "devDependencies": {
-  //   "custom-react-scripts": "0.0.21"
-  // },
   "dependencies": {
     "custom-react-scripts": "0.0.21",
     "react": "^15.4.2",
