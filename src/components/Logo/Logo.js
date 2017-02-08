@@ -14,7 +14,7 @@ const Logo = () => {
         </h1>
       </div>
       <Link to='/game' className='logo-rooster'>
-        <img className='rooster-img' src={rooster} alt='Rooster graphic' />
+        <img src={rooster} alt='Rooster graphic' />
       </Link>
     </div>
   )

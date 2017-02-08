@@ -10,7 +10,12 @@
   }
 
   &-page {
+    display: flex;
+    flex-direction: column;
     width: 90%;
-    max-width: 68em;
+    max-width: 50em;
+    height: 100%;
+    align-items: center;
+    justify-content: center
   }
 }

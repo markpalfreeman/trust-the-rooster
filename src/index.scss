@@ -14,6 +14,14 @@ img {
   width: 100%;
 }
 
+h1, h2, h3, h4 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.2;
+}
+
 /*///////////////////////*/
 
 #app {
@@ -25,13 +33,13 @@ img {
   color: #CA3A36;
   border: 0.25em solid #CA3A36;
   padding: 0.5em 1em;
-  font-size: 0.8em;
+  font-size: 0.875em;
   font-family: 'Rubik', sans-serif;
   text-transform: uppercase;
   cursor: pointer;
 
   &:hover {
-    background-color: #CA3A36;
+    background: #CA3A36;
     color: white;
   }
 

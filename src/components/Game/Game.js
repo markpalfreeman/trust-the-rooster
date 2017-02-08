@@ -1,23 +1,41 @@
 import React from 'react'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+// import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import Question from './Question'
 import QuestionResult from './QuestionResult'
+import GameResult from './GameResult'
+import IntuitionMeter from './IntuitionMeter'
 import factsData from '../../facts.json'
 import './Game.scss'
 
 const Game = React.createClass({
   getInitialState () {
+    return this.getEmptyState()
+  },
+
+  componentWillMount () {
+    this.setGameFacts();
+  },
+
+  getEmptyState () {
     return {
       facts: [],
       activeFact: 0,
       answers: [],
+      numTrue: 0,
       correctCount: 0,
-      totalCount: 20,
-      showResult: false
+      totalCount: 10,
+      showQuestionResult: false,
+      showGameResult: false
     }
   },
 
-  componentWillMount () {
+  getIntuition () {
+    // +1 for correct, -1 for incorrect
+    // correct minus incorrect
+    return this.state.correctCount - (this.state.answers.length - this.state.correctCount)
+  },
+
+  setGameFacts () {
     const { totalCount } = this.state
     const numTrue = Math.floor(Math.random() * totalCount)
     const numFalse = totalCount - numTrue
@@ -25,7 +43,10 @@ const Game = React.createClass({
     let facts = this.shuffle(factsData.facts).slice(0, numTrue)
       .concat(this.shuffle(factsData.lies).slice(0, numFalse))
 
-    this.setState({facts: this.shuffle(facts)})
+    this.setState({
+      facts: this.shuffle(facts),
+      numTrue: numTrue
+    })
   },
 
   onAnswer (truth) {
@@ -36,22 +57,33 @@ const Game = React.createClass({
     this.setState({
       answers: answers.concat(truth),
       correctCount: count,
-      showResult: true
+      showQuestionResult: true
     })
   },
 
   nextQuestion () {
     const { activeFact, totalCount} = this.state
-    let active = activeFact
+    let active = activeFact,
+        showGameResult = false
 
+    // If we haven't reached the last question, go to next
     if ((activeFact + 1) < totalCount) {
       active = activeFact + 1
+    } else {
+      // Otherwise, show final game result
+      showGameResult = true
     }
 
     this.setState({
-      showResult: false,
+      showQuestionResult: false,
+      showGameResult: showGameResult,
       activeFact: active
     })
+  },
+
+  newGame () {
+    this.setState(this.getEmptyState()) // clear all game data
+    this.setGameFacts() // get new set of facts for new game
   },
 
   shuffle (arr) {
@@ -65,26 +97,22 @@ const Game = React.createClass({
   },
 
   render () {
-    var { activeFact, answers, correctCount, facts, totalCount } = this.state
+    var { activeFact,
+          answers,
+          correctCount,
+          facts,
+          showQuestionResult,
+          showGameResult
+        } = this.state
 
     return (
       <div className='ttr-page'>
-        <h1>Game</h1>
-        <div className='ttr-scoreboard'>
-          <h4>Question #{activeFact + 1}</h4>
-          {/*<h4>Correct: {correctCount} / {activeFact}</h4>*/}
-        </div>
-        <ReactCSSTransitionGroup
-          transitionName='swapQuestion'
-          transitionEnterTimeout={500}
-          transitionLeaveTimeout={500}>
-          {this.state.showResult
-            ? <QuestionResult fact={facts[activeFact]} answer={answers[activeFact]} nextQuestion={this.nextQuestion}/>
-            : <Question fact={facts[activeFact]} submitAnswer={this.onAnswer}/>
-          }
-        </ReactCSSTransitionGroup>
-        <p>{activeFact + 1} / {totalCount}</p>
-        <p>correct: {correctCount}</p>
+        {showGameResult
+          ? <GameResult correctCount={correctCount} length={answers.length} intuition={this.getIntuition()} newGame={this.newGame} />
+          : showQuestionResult
+            ? <QuestionResult fact={facts[activeFact]} answer={answers[activeFact]} nextQuestion={this.nextQuestion} />
+            : <Question activeFact={activeFact} fact={facts[activeFact]} submitAnswer={this.onAnswer} />}
+        {activeFact > 0 && <IntuitionMeter intuition={this.getIntuition()} length={answers.length} />}
       </div>
     )
   }
