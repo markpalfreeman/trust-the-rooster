@@ -5,7 +5,7 @@ const About = React.createClass({
   render () {
     return (
       <div className='ttr-page'>
-        <p>Happy birthday Caden!</p>
+        <h2>Happy birthday Caden!</h2>
       </div>
     )
   }
