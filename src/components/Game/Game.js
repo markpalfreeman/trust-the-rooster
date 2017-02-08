@@ -23,7 +23,7 @@ const Game = React.createClass({
       answers: [],
       numTrue: 0,
       correctCount: 0,
-      totalCount: 10,
+      totalCount: 5,
       showQuestionResult: false,
       showGameResult: false
     }
@@ -40,11 +40,11 @@ const Game = React.createClass({
     const numTrue = Math.floor(Math.random() * totalCount)
     const numFalse = totalCount - numTrue
 
-    let facts = this.shuffle(factsData.facts).slice(0, numTrue)
-      .concat(this.shuffle(factsData.lies).slice(0, numFalse))
+    let facts = this.shuffleArray(factsData.facts).slice(0, numTrue)
+      .concat(this.shuffleArray(factsData.lies).slice(0, numFalse))
 
     this.setState({
-      facts: this.shuffle(facts),
+      facts: this.shuffleArray(facts),
       numTrue: numTrue
     })
   },
@@ -82,11 +82,12 @@ const Game = React.createClass({
   },
 
   newGame () {
-    this.setState(this.getEmptyState()) // clear all game data
-    this.setGameFacts() // get new set of facts for new game
+    // Clear game data and generate new facts
+    this.setState(this.getEmptyState())
+    this.setGameFacts()
   },
 
-  shuffle (arr) {
+  shuffleArray (arr) {
     for (var i = arr.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1))
       var temp = arr[i]
