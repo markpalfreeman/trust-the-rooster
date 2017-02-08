@@ -5,7 +5,7 @@ import QuestionResult from './QuestionResult'
 import GameResult from './GameResult'
 import IntuitionMeter from './IntuitionMeter'
 import factsData from '../../facts.json'
-import './Game.scss'
+import './Game.css'
 
 const Game = React.createClass({
   getInitialState () {

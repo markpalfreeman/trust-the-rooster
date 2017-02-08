@@ -4,7 +4,7 @@ import Logo from './components/Logo/Logo'
 import Header from './components/Header/Header'
 import About from './components/About/About'
 import Game from './components/Game/Game'
-import './App.scss'
+import './App.css'
 
 const App = () => (
   <Router>

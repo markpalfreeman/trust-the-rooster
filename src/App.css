@@ -1,0 +1,21 @@
+.ttr {
+  height: 100%;
+  font-family: 'Rubik', sans-serif;
+}
+
+.ttr-body {
+  display: flex;
+  justify-content: center;
+  height: calc(100% - 4em);
+  position: relative;
+}
+
+.ttr-page {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 50em;
+  height: 100%;
+  align-items: center;
+  justify-content: center
+}

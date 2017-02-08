@@ -37,13 +37,13 @@ p {
   font-family: 'Rubik', sans-serif;
   text-transform: uppercase;
   cursor: pointer;
+}
 
-  &:hover {
-    background: #CA3A36;
-    color: white;
-  }
+.button:hover {
+  background: #CA3A36;
+  color: white;
+}
 
-  & + & {
-    margin-left: 1em;
-  }
+.button + .button {
+  margin-left: 1em;
 }
