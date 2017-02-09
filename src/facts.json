@@ -52,9 +52,6 @@
     "fact": "A jellyfish is approximately 95% water."
   }, {
     "truth": true,
-    "fact": "Children tend to grow faster in the spring."
-  }, {
-    "truth": true,
     "fact": "Broccoli is the only vegetable that is also a flower."
   }, {
     "truth": true,
@@ -73,13 +70,7 @@
     "fact": "The Hawaiian alphabet only has 12 letters."
   }, {
     "truth": true,
-    "fact": "A ball of glass will bounce higher than a ball of rubber."
-  }, {
-    "truth": true,
     "fact": "Chewing gum while peeling onions will prevent you from crying."
-  }, {
-    "truth": true,
-    "fact": "On average a human will spend up to 2 weeks kissing in his/her lifetime."
   }, {
     "truth": true,
     "fact": "Fish have eyelids."
@@ -95,15 +86,6 @@
   }, {
     "truth": true,
     "fact": "A snail breathes through its foot."
-  }, {
-    "truth": true,
-    "fact": "Fish cough."
-  }, {
-    "truth": true,
-    "fact": "An ant's sense of smell is stronger than a dog's."
-  }, {
-    "truth": true,
-    "fact": "It is possible to lead a cow up stairs but not down."
   }, {
     "truth": true,
     "fact": "Frogs cannot swallow with their eyes open."
@@ -124,9 +106,6 @@
     "fact": "Giraffes have no vocal chords."
   }, {
     "truth": true,
-    "fact": "Cats can hear ultrasound."
-  }, {
-    "truth": true,
     "fact": "Despite its hump, a camel has a straight spine."
   }, {
     "truth": true,
@@ -134,9 +113,6 @@
   }, {
     "truth": true,
     "fact": "There are 63,360 inches in a mile."
-  }, {
-    "truth": true,
-    "fact": "About 11% of the people in the world are left-handed."
   }, {
     "truth": true,
     "fact": "The average smell weighs 760 nanograms."
@@ -160,9 +136,6 @@
     "fact": "The tongue is the fastest healing part of the body."
   }, {
     "truth": true,
-    "fact": "Pigs can get sunburn."
-  }, {
-    "truth": true,
     "fact": "The life span of a taste bud is about ten days."
   }, {
     "truth": true,
@@ -175,12 +148,6 @@
     "fact": "A one-day weather forecast requires about 10 billion math calculations."
   }, {
     "truth": true,
-    "fact": "Americans, on average, eat 18 acres of pizza a day."
-  }, {
-    "truth": true,
-    "fact": "There are 18 different animal shapes in the animal cracker zoo."
-  }, {
-    "truth": true,
     "fact": "The longest one syllable word is 'screeched.'"
   }, {
     "truth": true,
@@ -191,12 +158,6 @@
   }, {
     "truth": true,
     "fact": "The average person spends 2 weeks over his/her lifetime waiting for a traffic light to change."
-  }, {
-    "truth": true,
-    "fact": "You share your birthday with at least 9 million other people in the world."
-  }, {
-    "truth": true,
-    "fact": "No piece of paper can be folded more than seven times."
   }, {
     "truth": true,
     "fact": "Alaska is the most eastern and western state in the U.S."
@@ -223,9 +184,6 @@
     "fact": "Until the 19th century, solid blocks of tea were used as money in Siberia."
   }, {
     "truth": true,
-    "fact": "A mile on the ocean and a mile on land are not the same distance."
-  }, {
-    "truth": true,
     "fact": "A ten gallon hat holds less than one gallon of liquid."
   }, {
     "truth": true,
@@ -233,9 +191,6 @@
   }, {
     "truth": true,
     "fact": "There are more telephones than people in Washington, D.C."
-  }, {
-    "truth": true,
-    "fact": "Fish can drown."
   }, {
     "truth": true,
     "fact": "A kangaroo can jump 30 feet."
@@ -247,9 +202,6 @@
     "fact": "Squids can have eyes the size of a volleyball."
   }, {
     "truth": true,
-    "fact": "The average American will eat 35,000 cookies in his/her lifetime."
-  }, {
-    "truth": true,
     "fact": "A turkey can run at 20 mph."
   }, {
     "truth": true,
@@ -259,16 +211,7 @@
     "fact": "You burn about 20 calories per hour chewing gum."
   }, {
     "truth": true,
-    "fact": "In a year, the average person walks four miles making his or her bed."
-  }, {
-    "truth": true,
     "fact": "About half of all Americans are on a diet on any given day."
-  }, {
-    "truth": true,
-    "fact": "A one-minute kiss burns about 26 calories."
-  }, {
-    "truth": true,
-    "fact": "Frowning burns more calories than smiling."
   }, {
     "truth": true,
     "fact": "You will burn about 7% more calories walking on hard dirt than on pavement."
@@ -298,7 +241,7 @@
     "fact": "Bamboo makes up 99 percent of a panda's diet."
   }, {
     "truth": true,
-    "fact": "The largest fish is the whale shark - it can be over 50 feet long and weigh two tons."
+    "fact": "The largest fish is the whale shark."
   }, {
     "truth": true,
     "fact": "The starfish is the only animal that can turn its stomach inside out."
@@ -311,9 +254,6 @@
   }, {
     "truth": true,
     "fact": "The only continent without reptiles or snakes is Antarctica."
-  }, {
-    "truth": true,
-    "fact": "The only bird that can swim and not fly is a penguin."
   }, {
     "truth": true,
     "fact": "A duck can't walk without bobbing its head."
@@ -355,13 +295,7 @@
     "fact": "An ant can lift 50 times its own weight."
   }, {
     "truth": true,
-    "fact": "A single coffee tree produces only about a pound of coffee beans per year."
-  }, {
-    "truth": true,
     "fact": "Strawberries are the only fruits whose seeds grow on the outside."
-  }, {
-    "truth": true,
-    "fact": "The city of Los Angeles has about 3x more automobiles than people."
   }, {
     "truth": true,
     "fact": "Hawaii is the only U.S. state that grows coffee commercially."
@@ -383,9 +317,6 @@
   }, {
     "truth": true,
     "fact": "Texas is the only state that permits residents to cast absentee ballots from space."
-  }, {
-    "truth": true,
-    "fact": "Lake Superior is the world's largest lake."
   }, {
     "truth": true,
     "fact": "The smallest county in America is New York County, better known as Manhattan."
@@ -448,9 +379,6 @@
     "fact": "You'd have to play ping-pong for about 12 hours to lose one pound."
   }, {
     "truth": true,
-    "fact": "One brow wrinkle is the result of 200,000 frowns."
-  }, {
-    "truth": true,
     "fact": "The first human-made object to break the sound barrier was a whip."
   }, {
     "truth": true,
@@ -461,9 +389,6 @@
   }, {
     "truth": true,
     "fact": "The eye makes movements 50 times every second."
-  }, {
-    "truth": true,
-    "fact": "Chinese is the most spoken language in the world."
   }, {
     "truth": true,
     "fact": "The world's biggest pyramid is not in Egypt, but in Mexico."
@@ -478,7 +403,7 @@
     "fact": "The first sailing boats were built in Egypt."
   }, {
     "truth": true,
-    "fact": "The first ballpoint pens were sold in 1945 for $12.00."
+    "fact": "The first ballpoint pens were sold in 1945 for $12."
   }, {
     "truth": true,
     "fact": "The first VCR was made in 1956 and was the size of a piano."
@@ -502,13 +427,7 @@
     "fact": "A female kangaroo is called a flyer."
   }, {
     "truth": true,
-    "fact": "There are over 61,000 pizzerias in the U.S."
-  }, {
-    "truth": true,
     "fact": "Antarctica is the driest, coldest, windiest, and highest continent on earth."
-  }, {
-    "truth": true,
-    "fact": "The Sahara Desert stretches farther than the distance from California to New York."
   }, {
     "truth": true,
     "fact": "Thailand means 'Land of the Free.'"
@@ -538,16 +457,10 @@
     "fact": "The U.S. is the largest country named after a real person (Amerigo Vespucci)."
   }, {
     "truth": true,
-    "fact": "The largest cheesecake ever made weighed 57,508 lbs."
-  }, {
-    "truth": true,
     "fact": "The first country to use postcards was Austria."
   }, {
     "truth": true,
     "fact": "The only one-syllabled U.S. state is Maine."
-  }, {
-    "truth": true,
-    "fact": "The mouth of the Statue of Liberty is 3 feet wide."
   }, {
     "truth": true,
     "fact": "Atlantic salmon are capable of leaping 15 feet high."
@@ -688,16 +601,7 @@
     "fact": "There are more saunas than cars in Finland."
   }, {
     "truth": true,
-    "fact": "The first food eaten in space by a U.S. astronaut was applesauce."
-  }, {
-    "truth": true,
-    "fact": "Lemon wood is carved into chess pieces."
-  }, {
-    "truth": true,
     "fact": "The original recipe for chocolate contained chili powder instead of sugar."
-  }, {
-    "truth": true,
-    "fact": "Underwater hockey is played with a 3-pound puck."
   }, {
     "truth": true,
     "fact": "Bowling pins need to tip over a mere 7 1/2 degrees to fall down."
@@ -709,15 +613,6 @@
     "fact": "About 90% of all garlic consumed in the U.S. comes from Gilroy, CA."
   }, {
     "truth": true,
-    "fact": "Double Dutch jump rope is considered a cross-training sport."
-  }, {
-    "truth": true,
-    "fact": "One lemon tree will produce about 1,500 lemons a year."
-  }, {
-    "truth": true,
-    "fact": "Horseback riding can improve your posture."
-  }, {
-    "truth": true,
     "fact": "Colors like red, yellow and orange make you hungry."
   }, {
     "truth": true,
@@ -725,9 +620,6 @@
   }, {
     "truth": true,
     "fact": "At birth a human has 350 bones, but only 206 bones when full grown."
-  }, {
-    "truth": true,
-    "fact": "Each year, the average American eats about 15 pounds of apples."
   }, {
     "truth": true,
     "fact": "It took the first man to walk around the world four years, three months and 16 days to complete his journey."
@@ -740,9 +632,6 @@
   }, {
     "truth": true,
     "fact": "China only has one time zone."
-  }, {
-    "truth": true,
-    "fact": "Canada has the longest coastline of any country in the world."
   }, {
     "truth": true,
     "fact": "The amount of concrete used in the Hoover Dam could build a highway from New York to California."
@@ -931,27 +820,6 @@
     "fact": "The popsicle was invented in 1905 by an 11-year-old boy."
   }, {
     "truth": true,
-    "fact": "The medical term for writer's cramp is graphospasm."
-  }, {
-    "truth": true,
-    "fact": "A male firefly's light is twice as bright as a female's."
-  }, {
-    "truth": true,
-    "fact": "It is estimated that the world's oceans contain 10 billion tons of gold."
-  }, {
-    "truth": true,
-    "fact": "The watersheds that supply water to New York City are roughly the size of Delaware."
-  }, {
-    "truth": true,
-    "fact": "Cold water weighs less than hot water."
-  }, {
-    "truth": true,
-    "fact": "Storm clouds hold about 6 trillion raindrops."
-  }, {
-    "truth": true,
-    "fact": "The weight of the moon is 81 billion tons."
-  }, {
-    "truth": true,
     "fact": "Bamboo can grow three feet in one day."
   }, {
     "truth": true,
@@ -965,9 +833,6 @@
   }, {
     "truth": true,
     "fact": "Butterflies were formerly known by the name Flutterby."
-  }, {
-    "truth": true,
-    "fact": "Mexican jumping beans jump to get out of sunlight."
   }, {
     "truth": true,
     "fact": "The pineapple is a very big berry."
@@ -2053,9 +1918,6 @@
     "fact": "A pearl can be dissolved by vinegar."
   }, {
     "truth": true,
-    "fact": "Queen Isabella I of Spain, who funded Columbus' voyage across the ocean, claimed to have only bathed twice in her life."
-  }, {
-    "truth": true,
     "fact": "The longest attack of hiccups ever lasted 68 years."
   }, {
     "truth": true,
@@ -2239,16 +2101,7 @@
     "fact": "At latitude 60° south, it is possible to sail clear around the world without touching land."
   }, {
     "truth": true,
-    "fact": "Interstate 90 is the longest U.S. Interstate Highway with over 3,000 miles from Seattle, WA to Boston, MA."
-  }, {
-    "truth": true,
-    "fact": "DFW Airport in Texas is larger than the island of Manhattan."
-  }, {
-    "truth": true,
     "fact": "Benjamin Franklin invented flippers."
-  }, {
-    "truth": true,
-    "fact": "Miami installed the first ATM for inline skaters."
   }, {
     "truth": true,
     "fact": "Indonesia is made up of more than 17,000 islands."
@@ -2272,121 +2125,13 @@
     "fact": "Humans share 50% of their DNA with bananas."
   }, {
     "truth": true,
-    "fact": "Maine is the closest U.S. state to Africa."
-  }, {
-    "truth": true,
     "fact": "An octopus has three hearts."
-  }, {
-    "truth": true,
-    "fact": "Only 12 U.S. presidents have been elected to office for two terms and served those two terms."
-  }, {
-    "truth": true,
-    "fact": "Franklin D. Roosevelt was elected to office for four terms prior to the 22nd Amendment."
-  }, {
-    "truth": true,
-    "fact": "John F. Kennedy, at 43, was the youngest elected president, and Ronald Reagan, at 73, the oldest."
   }, {
     "truth": true,
     "fact": "James Buchanan is the only bachelor to be elected president."
   }, {
     "truth": true,
     "fact": "Eight presidents have died while in office."
-  }, {
-    "truth": true,
-    "fact": "Bill Clinton was born William Jefferson Blythe III, but took his stepfather’s last name when his mother remarried."
-  }, {
-    "truth": true,
-    "fact": "Prior to the 12th Amendment in 1804, the presidential candidate who received the second highest number of electoral votes was vice president."
-  }, {
-    "truth": true,
-    "fact": "George Washington was a successful liquor distributor, making rye whiskey, apple brandy, and peach brandy in his Mount Vernon distillery."
-  }, {
-    "truth": true,
-    "fact": "Thomas Jefferson and John Adams chipped off a piece of Shakespeare's chair as a souvenir when they visited his home in 1786."
-  }, {
-    "truth": true,
-    "fact": "George Washington started losing his permanent teeth in his 20s and had only one natural tooth by the time he was president."
-  }, {
-    "truth": true,
-    "fact": "George Washington had false teeth made from many different materials, including an elephant tusk and hippopotamus ivory."
-  }, {
-    "truth": true,
-    "fact": "George Washington protected his beloved horses from losing their teeth by making sure they were brushed regularly."
-  }, {
-    "truth": true,
-    "fact": "John Quincy Adams regularly skinny-dipped in the Potomac River."
-  }, {
-    "truth": true,
-    "fact": "Calvin Coolidge was so shy, he was nicknamed “Silent Cal.”"
-  }, {
-    "truth": true,
-    "fact": "Calvin Coolidge loved to wear a cowboy hat and ride his mechanical horse."
-  }, {
-    "truth": true,
-    "fact": "President Herbert Hoover invented “Hooverball” (a cross between volleyball and tennis using a medicine ball), which he played with his cabinet members."
-  }, {
-    "truth": true,
-    "fact": "Andrew Jackson was involved in as many as 100 duels, many of which were fought to defend the honor of his wife, Rachel."
-  }, {
-    "truth": true,
-    "fact": "Martin Van Buren's nickname was 'Old Kinderhook' because he was raised in Kinderhook, N.Y."
-  }, {
-    "truth": true,
-    "fact": "James Buchanan bought slaves in Washington, D.C., and quietly freed them in Pennsylvania."
-  }, {
-    "truth": true,
-    "fact": "Abraham Lincoln was only defeated once in about 300 wrestling matches, making it to the Wrestling Hall of Fame with honors as 'Outstanding American.'"
-  }, {
-    "truth": true,
-    "fact": "In his youth, President Andrew Johnson apprenticed as a tailor."
-  }, {
-    "truth": true,
-    "fact": "Ulysses S. Grant smoked at least 20 cigars a day; citizens sent him at least 10,000 boxes in gratitude after winning the Battle of Shiloh."
-  }, {
-    "truth": true,
-    "fact": "Not only was James Garfield ambidextrous, he could write Latin with one hand and Greek with the other at the same time."
-  }, {
-    "truth": true,
-    "fact": "Benjamin Harrison was the first president to have electricity in the White House; however, he was so scared of getting electrocuted, he’d never touch the light switches himself."
-  }, {
-    "truth": true,
-    "fact": "William McKinley almost always wore a red carnation on his lapel as a good-luck charm."
-  }, {
-    "truth": true,
-    "fact": "Herbert Hoover's son had two pet alligators that were occasionally permitted to run loose throughout the White House."
-  }, {
-    "truth": true,
-    "fact": "Jimmy Carter filed a report for a UFO sighting in 1973, calling it “the darndest thing I’ve ever seen.”"
-  }, {
-    "truth": true,
-    "fact": "Bill Clinton's face is so symmetrical that he ranked in facial symmetry alongside male models."
-  }, {
-    "truth": true,
-    "fact": "In 1916, Jeannette Rankin of Montana became the first woman elected to Congress."
-  }, {
-    "truth": true,
-    "fact": "Gerald Ford was the only president and vice president never to be elected to either office."
-  }, {
-    "truth": true,
-    "fact": "Victoria Woodhull, in 1872, was the first woman to run for the U.S. presidency."
-  }, {
-    "truth": true,
-    "fact": "James Monroe received every electoral vote but one in the 1820 election."
-  }, {
-    "truth": true,
-    "fact": "There are only three requirements to become U.S. president: must be 35, a natural-born U.S. citizen, and have resided in the U.S. for at least 14 years."
-  }, {
-    "truth": true,
-    "fact": "To cut groundskeeping costs during World War I, President Woodrow Wilson brought a flock of sheep to trim the White House grounds."
-  }, {
-    "truth": true,
-    "fact": "Rutherford B. Hayes was the first president to use a phone, and his phone number was extremely easy to remember – simply “1.”"
-  }, {
-    "truth": true,
-    "fact": "Martin Van Buren was the first president born a U.S. citizen; all presidents before him were British."
-  }, {
-    "truth": true,
-    "fact": "Andrew Jackson's pet parrot Poll was removed from his funeral for cursing."
   }, {
     "truth": true,
     "fact": "There has never been a U.S. president whose name started with the common letter S."
@@ -2401,79 +2146,13 @@
     "fact": "Four times in U.S history has a presidential candidate won the popular vote but lost the election."
   }, {
     "truth": true,
-    "fact": "President Herbert Hoover and his wife were fluent in Mandarin Chinese and would use it in the White House to speak privately to each other."
-  }, {
-    "truth": true,
     "fact": "November was chosen to be election month because it fell between harvest and brutal winter weather."
-  }, {
-    "truth": true,
-    "fact": "Six of the last 12 U.S. presidents have been left-handed, far greater than the national average of lefties (10%)."
-  }, {
-    "truth": true,
-    "fact": "William Henry Harrison owned a pet goat while in office."
-  }, {
-    "truth": true,
-    "fact": "John Adams had a horse named Cleopatra."
-  }, {
-    "truth": true,
-    "fact": "James Madison had a pet parrot who outlived him and his wife."
-  }, {
-    "truth": true,
-    "fact": "John Quincy Adams' wife raised silkworms."
-  }, {
-    "truth": true,
-    "fact": "Martin Van Buren was given two tiger cubs while he was president."
-  }, {
-    "truth": true,
-    "fact": "William Harrison had a billy goat at the White House."
-  }, {
-    "truth": true,
-    "fact": "Franklin Pierce was gifted two small 'sleeve dogs'–he kept one and gave the other to Jefferson Davis."
-  }, {
-    "truth": true,
-    "fact": "Abraham Lincoln's son had a pet turkey, which he gave a pardon so it wasn't killed and eaten."
-  }, {
-    "truth": true,
-    "fact": "James Garfield had a dog appropriately named Veto."
-  }, {
-    "truth": true,
-    "fact": "William Taft liked milk so much that he had cows graze on the White House lawn, Pauline being the last in history to graze there."
-  }, {
-    "truth": true,
-    "fact": "Calvin Coolidge had a bulldog named Boston Beans, a terrier named Peter Pan, and a pet raccoon."
-  }, {
-    "truth": true,
-    "fact": "John Kennedy had a pony named Macaroni."
-  }, {
-    "truth": true,
-    "fact": "Lyndon Johnson had two beagles, named Him and Her, for which he was criticized for picking up by their ears."
-  }, {
-    "truth": true,
-    "fact": "Jimmy Carter had a dog named Grits, a gift given to his daughter Amy."
-  }, {
-    "truth": true,
-    "fact": "Bill Clinton had a cat named Socks, which was the first presidential pet to have its own website."
-  }, {
-    "truth": true,
-    "fact": "Woodrow Wilson passed the Georgia Bar Exam despite not finishing law school; he also has a PhD."
-  }, {
-    "truth": true,
-    "fact": "President Zachary Taylor's nickname was 'Old Rough and Ready' because of his famed war career."
-  }, {
-    "truth": true,
-    "fact": "Andrew Jackson was once given a 1,400-pound cheese wheel as a gift, which he served at his outgoing President's Reception."
-  }, {
-    "truth": true,
-    "fact": "Blueberry jelly beans were created for Ronald Reagan’s presidential inauguration in 1981."
   }, {
     "truth": true,
     "fact": "Dwight D. Eisenhower was the first Texas-born president."
   }, {
     "truth": true,
     "fact": "Lyndon Johnson's family all had the initials LBJ."
-  }, {
-    "truth": true,
-    "fact": "Thomas Jefferson was convinced that if he soaked his feet in a bucket of cold water every day, he’d never get sick."
   }, {
     "truth": true,
     "fact": "Gerald Ford worked as a fashion model during college and actually appeared on the cover of Cosmopolitan."
@@ -2485,55 +2164,10 @@
     "fact": "Jimmy Carter was the first president to be born in a hospital."
   }, {
     "truth": true,
-    "fact": "Calvin Coolidge liked to have his head rubbed with petroleum jelly while eating breakfast in bed, believing it was good for his health."
-  }, {
-    "truth": true,
-    "fact": "A portion of Grover Cleveland's jaw was artificial, composed of vulcanized rubber."
-  }, {
-    "truth": true,
     "fact": "Russia and the United States are less than three miles apart."
   }, {
     "truth": true,
-    "fact": "John Adams and Thomas Jefferson died within hours of each other on the Fourth of July in 1826."
-  }, {
-    "truth": true,
-    "fact": "Abraham Lincoln's dog Fido was the first 'First Dog' to be photographed."
-  }, {
-    "truth": true,
-    "fact": "President Calvin Coolidge owned two lion cubs: Tax Reduction and Budget Bureau."
-  }, {
-    "truth": true,
-    "fact": "President Rutherford B. Hayes' cat Siam was the first Siamese cat in the U.S."
-  }, {
-    "truth": true,
-    "fact": "President John Quincy Adams' pet alligator lived in a White House bathroom."
-  }, {
-    "truth": true,
-    "fact": "First Lady Abigail Adams famously wrote, 'If you love me...you must love my dog.'"
-  }, {
-    "truth": true,
-    "fact": "John Adams' pets Satan and Juno were the first dogs to live in the White House."
-  }, {
-    "truth": true,
-    "fact": "Calvin Coolidge walked pet raccoon Rebecca on a leash around the White House."
-  }, {
-    "truth": true,
     "fact": "More presidents have had pet birds than cats."
-  }, {
-    "truth": true,
-    "fact": "Thomas Jefferson's pet mockingbird was trained to eat out of his mouth."
-  }, {
-    "truth": true,
-    "fact": "Spotty Bush, an English Springer Spaniel, has been the only presidential pet to live at the White House during two different administrations."
-  }, {
-    "truth": true,
-    "fact": "Andrew Jackson was the first president to ride on a railroad train."
-  }, {
-    "truth": true,
-    "fact": "Pat Nixon was the first First Lady to wear pants in public."
-  }, {
-    "truth": true,
-    "fact": "First Lady Martha Washington was the first American woman to be honored on a U.S. postage stamp."
   }, {
     "truth": true,
     "fact": "When Jill was in junior high, a Colorado hall-of-famer played basketball with her in her driveway."
@@ -2626,5 +2260,68 @@
   }, {
     "truth": false,
     "fact": "Mia's middle name is Francis."
+  }, {
+    "truth": false,
+    "fact": "Children tend to grow faster in the fall."
+  }, {
+    "truth": false,
+    "fact": "A ball of rubber will bounce higher than a ball of glass."
+  }, {
+    "truth": false,
+    "fact": "An ant's sense of smell isn't as strong as a dog's."
+  }, {
+    "truth": false,
+    "fact": "Dogs can hear ultrasound."
+  }, {
+    "truth": false,
+    "fact": "About 25% of the people in the world are left-handed."
+  }, {
+    "truth": false,
+    "fact": "Pigs can't get sunburned."
+  }, {
+    "truth": false,
+    "fact": "A mile on the ocean and a mile on land are the same distance."
+  }, {
+    "truth": false,
+    "fact": "Fish can't drown."
+  }, {
+    "truth": false,
+    "fact": "Smiling burns more calories than frowning."
+  }, {
+    "truth": false,
+    "fact": "A single coffee tree produces about a pound of coffee beans every week."
+  }, {
+    "truth": false,
+    "fact": "The city of Los Angeles has about 3x more people than automobiles."
+  }, {
+    "truth": false,
+    "fact": "English is the most spoken language in the world."
+  }, {
+    "truth": false,
+    "fact": "The mouth of the Statue of Liberty is 10 feet wide."
+  }, {
+    "truth": false,
+    "fact": "The continenal United States stretches farther than The Sahara Desert."
+  }, {
+    "truth": false,
+    "fact": "The first food eaten in space by a U.S. astronaut was ice cream."
+  }, {
+    "truth": false,
+    "fact": "Antarctica has the longest coastline of any country in the world."
+  }, {
+    "truth": false,
+    "fact": "Hot water weighs less than cold water."
+  }, {
+    "truth": false,
+    "fact": "Mexican jumping beans jump to get into sunlight."
+  }, {
+    "truth": false,
+    "fact": "Hillary Clinton was the first woman to run for the U.S. presidency."
+  }, {
+    "truth": false,
+    "fact": "Florida is the closest U.S. state to Africa."
+  }, {
+    "truth": false,
+    "fact": "Interstate 80 is the longest U.S. Interstate Highway."
   }]
 }
