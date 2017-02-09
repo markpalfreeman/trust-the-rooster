@@ -113,7 +113,7 @@ const Game = React.createClass({
           : showQuestionResult
             ? <QuestionResult fact={facts[activeFact]} answer={answers[activeFact]} nextQuestion={this.nextQuestion} />
             : <Question activeFact={activeFact} fact={facts[activeFact]} submitAnswer={this.onAnswer} />}
-        {activeFact > 0 && <IntuitionMeter intuition={this.getIntuition()} length={answers.length} />}
+        {activeFact > 0 && !showGameResult && <IntuitionMeter intuition={this.getIntuition()} length={answers.length} />}
       </div>
     )
   }

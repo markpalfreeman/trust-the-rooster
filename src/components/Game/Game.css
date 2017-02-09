@@ -64,6 +64,10 @@
   width: 2em;
 }
 
+.ttr-game-result p {
+  font-size: 1.25em;
+}
+
 .ttr-game-intuition {
   position: absolute;
   bottom: 5%;

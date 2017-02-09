@@ -14,12 +14,14 @@ const GameResult = React.createClass({
     const { correctCount, length, intuition, newGame } = this.props
     let tip
 
-    if (intuition === 0) {
-      tip = 'You seem pretty indifferent about when to trust the rooster ¯\\_(ツ)_/¯'
-    } else if (intuition > 0) {
-      tip = 'Looks like you had pretty good intuition to trust the rooster! 👊'
-    } else {
+    if (intuition < -1) {
       tip = 'You might need some practice knowing when to trust the rooster 😕'
+    } else if (intuition <= 1) {
+      tip = 'You seem pretty indifferent about when to trust the rooster ¯\\_(ツ)_/¯'
+    } else if (intuition <= (length - 1)) {
+      tip = 'You had pretty good intuition to trust the rooster! 👊'
+    } else {
+      tip = 'Perfect! You trusted the rooster the exact right amount 🎉 \nYou win $5!'
     }
 
     return (
