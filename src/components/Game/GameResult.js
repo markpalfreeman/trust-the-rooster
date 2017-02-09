@@ -1,5 +1,5 @@
 import React from 'react'
-import rooster from '../../img/rooster.svg'
+import Rooster from '../../components/Rooster/Rooster'
 const { number, func } = React.PropTypes
 
 const GameResult = React.createClass({
@@ -25,7 +25,9 @@ const GameResult = React.createClass({
     return (
       <div className='ttr-game-result'>
         <h1>{correctCount}/{length}</h1>
-        <img className='rooster-img' src={rooster} alt='Rooster graphic' />
+        <span className='rooster-img'>
+          <Rooster fill='#CA3A36' />
+        </span>
         <p>{tip}</p>
         <button className='button' onClick={newGame}>Play again</button>
       </div>

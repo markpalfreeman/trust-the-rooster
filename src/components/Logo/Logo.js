@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Logo.css'
-import rooster from '../../img/rooster.svg'
+import Rooster from '../../components/Rooster/Rooster'
 
 const Logo = () => {
   return (
@@ -14,7 +14,7 @@ const Logo = () => {
         </h1>
       </div>
       <Link to='/game' className='logo-rooster'>
-        <img src={rooster} alt='Rooster graphic' />
+        {<Rooster fill='#CA3A36' />}
       </Link>
     </div>
   )

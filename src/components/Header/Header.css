@@ -1,6 +1,8 @@
 .ttr-header {
-  height: 4em;
-  padding: 0 2em;
+  height: 3em;
+  padding: 0 1.5em;
+  background: #CA3A36;
+  color: white;
 }
 
 .ttr-header-nav {
@@ -16,15 +18,16 @@
 .ttr-header-link {
   text-transform: uppercase;
   text-decoration: none;
-  color: #CA3A36;
+  color: white;
 }
 
 .ttr-header-link:first-of-type {
   margin-right: 1.5em;
+  width: 1.8em
 }
 
 .ttr-header-link:not(:first-of-type) {
-  padding: 1.5em;
+  padding: 0 1.5em;
   position: relative;
 }
 
@@ -33,7 +36,7 @@
   display: block;
   position: absolute;
   left: 0.75em;
-  top: 37%;
+  top: 0;
 }
 
 .ttr-header-link:not(:first-of-type):hover:after {
@@ -41,7 +44,7 @@
   display: block;
   position: absolute;
   right: 0.75em;
-  top: 37%;
+  top: 0;
 }
 
 .ttr-header-link:last-of-type {

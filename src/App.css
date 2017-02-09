@@ -6,7 +6,7 @@
 .ttr-body {
   display: flex;
   justify-content: center;
-  height: calc(100% - 4em);
+  height: calc(100% - 3em);
   position: relative;
 }
 
