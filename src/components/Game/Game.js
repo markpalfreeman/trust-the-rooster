@@ -4,17 +4,26 @@ import Question from './Question'
 import QuestionResult from './QuestionResult'
 import GameResult from './GameResult'
 import IntuitionMeter from './IntuitionMeter'
+import utils from '../../util/utils'
 import factsData from '../../facts.json'
 import './Game.css'
 
-const Game = React.createClass({
-  getInitialState () {
-    return this.getEmptyState()
-  },
+class Game extends React.Component {
+  constructor (props) {
+    super(props)
 
-  componentWillMount () {
-    this.setGameFacts();
-  },
+    this.totalCount = 10
+
+    this.getEmptyState = this.getEmptyState.bind(this)
+    this.getIntuition = this.getIntuition.bind(this)
+    this.getGameFacts = this.getGameFacts.bind(this)
+    this.onAnswer = this.onAnswer.bind(this)
+    this.nextQuestion = this.nextQuestion.bind(this)
+    this.newGame = this.newGame.bind(this)
+
+    // Set initial game state
+    this.state = Object.assign({}, this.getEmptyState(), this.getGameFacts())
+  }
 
   getEmptyState () {
     return {
@@ -23,35 +32,34 @@ const Game = React.createClass({
       answers: [],
       numTrue: 0,
       correctCount: 0,
-      totalCount: 10,
       showQuestionResult: false,
       showGameResult: false
     }
-  },
+  }
 
   getIntuition () {
     // +1 for correct, -1 for incorrect
     // correct minus incorrect
     return this.state.correctCount - (this.state.answers.length - this.state.correctCount)
-  },
+  }
 
-  setGameFacts () {
-    const { totalCount } = this.state
-    const numTrue = Math.floor(Math.random() * totalCount)
-    const numFalse = totalCount - numTrue
+  getGameFacts () {
+    const numTrue = Math.floor(Math.random() * this.totalCount)
+    const numFalse = this.totalCount - numTrue
 
-    let facts = this.shuffleArray(factsData.facts).slice(0, numTrue)
-      .concat(this.shuffleArray(factsData.lies).slice(0, numFalse))
+    let facts = utils.shuffleArray(factsData.facts).slice(0, numTrue)
+      .concat(utils.shuffleArray(factsData.lies).slice(0, numFalse))
 
-    this.setState({
-      facts: this.shuffleArray(facts),
+    return {
+      facts: utils.shuffleArray(facts),
       numTrue: numTrue
-    })
-  },
+    }
+  }
 
   onAnswer (truth) {
     const { activeFact, answers, correctCount, facts } = this.state
     let count = correctCount
+    // Increase correct count if answer is correct
     if (truth === facts[activeFact].truth) count = correctCount + 1
 
     this.setState({
@@ -59,15 +67,15 @@ const Game = React.createClass({
       correctCount: count,
       showQuestionResult: true
     })
-  },
+  }
 
   nextQuestion () {
-    const { activeFact, totalCount} = this.state
+    const { activeFact } = this.state
     let active = activeFact,
         showGameResult = false
 
     // If we haven't reached the last question, go to next
-    if ((activeFact + 1) < totalCount) {
+    if ((activeFact + 1) < this.totalCount) {
       active = activeFact + 1
     } else {
       // Otherwise, show final game result
@@ -79,23 +87,12 @@ const Game = React.createClass({
       showGameResult: showGameResult,
       activeFact: active
     })
-  },
+  }
 
   newGame () {
     // Clear game data and generate new facts
-    this.setState(this.getEmptyState())
-    this.setGameFacts()
-  },
-
-  shuffleArray (arr) {
-    for (var i = arr.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1))
-      var temp = arr[i]
-      arr[i] = arr[j]
-      arr[j] = temp
-    }
-    return arr
-  },
+    this.setState(Object.assign({}, this.getEmptyState(), this.getGameFacts()))
+  }
 
   render () {
     var { activeFact,
@@ -117,6 +114,6 @@ const Game = React.createClass({
       </div>
     )
   }
-})
+}
 
 export default Game

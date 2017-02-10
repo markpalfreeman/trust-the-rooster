@@ -1,16 +1,6 @@
 import React from 'react'
-const { boolean, func, number, shape, string } = React.PropTypes
 
-const QuestionResult = React.createClass({
-  propTypes: {
-    activeFact: number,
-    fact: shape({
-      fact: string,
-      truth: boolean
-    }),
-    nextQuestion: func
-  },
-
+class QuestionResult extends React.Component {
   render () {
     const { answer, fact, nextQuestion } = this.props
     const result = (answer === fact.truth) ? 'correct' : 'wrong'
@@ -24,6 +14,16 @@ const QuestionResult = React.createClass({
       </div>
     )
   }
-})
+}
+
+const { boolean, func, number, shape, string } = React.PropTypes
+QuestionResult.propTypes = {
+  activeFact: number,
+  fact: shape({
+    fact: string,
+    truth: boolean
+  }),
+  nextQuestion: func
+}
 
 export default QuestionResult

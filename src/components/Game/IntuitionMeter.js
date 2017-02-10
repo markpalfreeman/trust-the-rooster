@@ -1,11 +1,6 @@
 import React from 'react'
 
-const IntuitionMeter = React.createClass({
-  propTypes: {
-    intuition: React.PropTypes.number,
-    length: React.PropTypes.number
-  },
-
+class IntuitionMeter extends React.Component {
   render () {
     const { intuition, length } = this.props
     var leftPercent = (intuition / (length * 2) * 100) + 50
@@ -19,6 +14,11 @@ const IntuitionMeter = React.createClass({
       </div>
     )
   }
-})
+}
+
+IntuitionMeter.propTypes = {
+  intuition: React.PropTypes.number,
+  length: React.PropTypes.number
+}
 
 export default IntuitionMeter

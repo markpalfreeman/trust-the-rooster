@@ -1,24 +1,22 @@
 import React from 'react'
-const { func, number, shape, string } = React.PropTypes
 
-const Question = React.createClass({
-  propTypes: {
-    fact: shape({
-      fact: string,
-      activeFact: number
-    }),
-    submitAnswer: func
-  },
+class Question extends React.Component {
+  constructor (props) {
+    super(props)
+
+    this.onAnswerTrue = this.onAnswerTrue.bind(this)
+    this.onAnswerFalse = this.onAnswerFalse.bind(this)
+  }
 
   // TODO: combine true/false
   onAnswerTrue () {
     this.props.submitAnswer(true)
-  },
+  }
 
   // TODO: combine true/false
   onAnswerFalse () {
     this.props.submitAnswer(false)
-  },
+  }
 
   render () {
     const { activeFact, fact } = this.props
@@ -31,6 +29,15 @@ const Question = React.createClass({
       </div>
     )
   }
-})
+}
+
+const { func, number, shape, string } = React.PropTypes
+Question.propTypes = {
+  fact: shape({
+    fact: string,
+    activeFact: number
+  }),
+  submitAnswer: func
+}
 
 export default Question
